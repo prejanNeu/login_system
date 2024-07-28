@@ -1,0 +1,32 @@
+body, html {
+    height: 10;            /* Ensures the body and html take full height */
+    margin: 0;              /* Removes default margin */
+}
+
+section {
+    display: flex;          /* Uses flexbox to center content */
+    justify-content: center;/* Centers the content horizontally */
+    align-items: center;    /* Centers the content vertically (if needed) */
+    height: 30px;          /* Sets a height for the section (adjust as needed) */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;            /* Removes default padding */
+    margin: 0;             /* Removes default margin */
+    display: flex;         /* Displays items in a row */
+}
+
+li {
+    margin-right: 15px;    /* Adds some space between items */
+    color: rgb(180, 188, 22);
+}
+li:hover{
+    background-color: white;
+    color: rgb(241, 7, 7);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
